@@ -3,6 +3,6 @@ export class Address {
     addressLine2: string;
     city: string;
     state: string;
-    postalCode: string;    
+    postalCode: string;
     country: string;
 }

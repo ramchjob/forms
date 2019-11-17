@@ -7,8 +7,8 @@ import { MatTableDataSource, MatPaginator, MatSort } from '@angular/material';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit{
-  
+export class AppComponent implements OnInit {
+
   customers: Customer[] = JSON.parse('[{"id":"1", "name":"First Name"}, {"id":"2", "name":"First Name2"}, {"id":"3", "name":"First Name3"}]');
     customerColumns: string[] = [
         'id',
